@@ -8,6 +8,7 @@ public class Gittest {
     public static void main(String[] args) {
         sayHello();
         goodBye();
+        Test2();
 
     }
         public static void sayHello(){
@@ -18,5 +19,8 @@ public class Gittest {
         }
         public static void sayBye(){
             System.out.println("Bye");
+        }
+        public static void Test2(){
+            System.out.println("Test2");
         }
 }
