@@ -16,7 +16,7 @@ public class Gittest {
         public static void goodBye(){
             System.out.println("Goodbye");
         }
-        public static void sayHi(){
-            System.out.println("Hi");
+        public static void sayBye(){
+            System.out.println("Bye");
         }
 }
