@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .day{
+            background-color: #91ff14ea;
+        }
+        .stu{
+            background-color: rgba(97, 240, 240, 0.911);
+        }
+        
+       table{
+           margin-top: 50px;
+           width: 80%;
+           border-collapse: collapse;
+           border-width: 2px;
+       }
+       th{
+           height: 30px;
+           background-color: #91ff14ea;
+           border-width: 2px;
+       }
+       td{
+           height: 50px;
+           text-align: center;
+            background-color: #B0E0E6;
+            border-width: 2px;
+       }
+       .time-date{
+           background-color: white;
+       }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตารางเรียน Oom</title>
+</head>
+<body>
+    <table border="1" align="center">
+        <caption>Oom table!</caption>
+        <tr>
+            <th class="time-date">วัน-เวลา</th>
+            <th>8.30 - 9.20</th>
+            <th>9.25 - 10.15</th>
+            <th>10.20 - 11.10</th>
+            <th>11.15 - 12.05</th>
+            <th rowspan="6" style="background-color: #5c59f3;"><p style="color: rgb(255, 255, 255);">12.10 - 12.55</p></th>
+            <th>13.00 - 13.50</th>
+            <th>13.55 - 14.45</th>
+            <th>14.50 - 15.40</th>
+            <th>15.45 - 16.35</th>
+            <th>16.40 - 17.30</th>
+           
+        </tr>
+        <tr>
+            <td style="background-color: rgb(248, 248, 144);"> จันทร์ </td>
+            <td colspan="1"></td>
+            <td colspan="3" class="stu">363 109 วัสดุและการผลิต<br>(Materitals and Production)</td>
+            <td colspan="1" class="rest"></td>
+            <td colspan="3" class="stu">363 106 ศิลปะการขึ้นรูปด้วยคอมพิวเตอร์<br>(Art of Computer Modeling)</td>
+            <td colspan="2"></td>
+            
+        </tr>
+        <tr>
+            <td style="background-color: HotPink;"> อังคาร </td>
+            <td colspan="3" class="stu">363 111 อังกฤษสำหรับการออกแบบผลิตภัณฑ์<br>(English for Product Design)<br>*start 9:00*</td>
+            <td colspan="1"></td>
+            <td colspan="1" class="rest"></td>
+            <td colspan="3" class="stu">363 110 มนุษย์ปัจจัยสำหรับการออกแบบ<br>(Human Faction for Design)</td>
+            <td colspan="2"></td>
+            
+        </tr>
+        <tr>
+            <td style="background-color: #C0FF3E;"> พุธ </td>
+            <td colspan="1"></td>
+            <td colspan="3" class="stu">360 112 สุนทรียศาสตร์เบื้องต้น<br>(Basic Aesthetics)</td>
+            <td colspan="1" class="rest"></td>
+            <td colspan="3" class="stu">363 108 การออกแบบสามมิติ<br>(Three Demensional Design)</td>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td style="background-color: #ff9e3c;"> พฤหัสบดี </td>
+            <td colspan="3" class="stu">081 101 ภาษาไทยเพื่อการสื่อสาร<br>(Thai for Communication)<br>*8:30 - 9:00*</td>
+            <td colspan="1"></td>
+            <td colspan="1" class="rest"></td>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td style="background-color: #8EE5EE;"> ศุกร์ </td>
+            <td colspan="4" class="stu">363 107 การออกแบบผลิตภัณฑ์ 2<br>(Product Desgin II)<br>*9:00 หรือ 8:30*</td>
+            <td colspan="1" class="rest"></td>
+            <td colspan="5"></td>
+        </tr>
+    </table>
+</body>
+</html>
